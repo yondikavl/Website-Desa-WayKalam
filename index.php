@@ -200,7 +200,51 @@ include "navbar.php"
     </div>
   </section>
 
+  <section class="md:p-20 text-center bg-[#E2F6FF]">
+    <h2 class="font-bigShoulders text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">TESTIMONIAL</h2>
+    <p class="font-bigShoulders text-[64px] font-black text-[#132758]">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA!</p>
+  </section>
 
+  <section class="md:p-20 ">
+    <div class="bg-[#132758] flex flex-col md:p-20 rounded-3xl gap-20 items-center" style="background-image: url(./images/bg-mi.png); background-repeat: no-repeat; background-size: cover;">
+      <h2 class="font-bigShoulders text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MAP INTERAKTIF</h2>
+      <p class="font-bigShoulders text-[64px] md:w-[50%] text-center font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">TAKUT NYASAR? TEMUKAN PETANYA DISINI!</p>
+      <a href="#" class="py-4 px-8 text-[#132758] bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-3 md:px-6"><span class="me-2 font-bold">Map Interaktif</span><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <footer>
+
+
+    <footer class="bg-[#132758] w-screen shadow">
+      <div class="w-full max-w-screen-xl p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between flex-col">
+          <div class="flex flex-col text-left">
+            <h2 class="font-bigShoulders text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">HUBUNGI KAMI</h2>
+            <p class="font-bigShoulders text-[64px] text-left font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MASIH RAGU DAN MEMILIKI BANYAK PERTANYAAN?</p>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </footer>
+
+
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/daisyui@0.0.6/dist/full.js"></script>
 </body>
