@@ -1,5 +1,5 @@
 <nav class="fixed z-10 w-full">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div class="flex flex-wrap items-center justify-between mx-auto p-4 md:px-20">
       <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="./Logo.svg" alt="Flowbite Logo" class="h-16" />
       </a>

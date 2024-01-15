@@ -8477,10 +8477,6 @@ details.collapse summary::-webkit-details-marker {
   margin: 0px;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .mx-\[15\%\] {
   margin-left: 15%;
   margin-right: 15%;
@@ -8499,6 +8495,11 @@ details.collapse summary::-webkit-details-marker {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .-mr-\[100\%\] {
@@ -8521,6 +8522,10 @@ details.collapse summary::-webkit-details-marker {
   margin-inline-end: 0.5rem;
 }
 
+.me-4 {
+  margin-inline-end: 1rem;
+}
+
 .ms-20 {
   margin-inline-start: 5rem;
 }
@@ -8533,8 +8538,8 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 1rem;
 }
 
-.me-4 {
-  margin-inline-end: 1rem;
+.me-8 {
+  margin-inline-end: 2rem;
 }
 
 .box-border {
@@ -8710,6 +8715,10 @@ details.collapse summary::-webkit-details-marker {
 
 .w-\[50\%\] {
   width: 50%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-\[this-is\\\\\] {
@@ -9790,13 +9799,13 @@ details.collapse summary::-webkit-details-marker {
   border-color: rgb(235 250 253 / var(--tw-border-opacity));
 }
 
-.border-transparent {
-  border-color: transparent;
-}
-
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .bg-\[\#00A693\] {
@@ -9879,11 +9888,6 @@ details.collapse summary::-webkit-details-marker {
 .via-\[\#00A693\] {
   --tw-gradient-to: rgb(0 166 147 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #00A693 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.via-\[\#baebf6\] {
-  --tw-gradient-to: rgb(186 235 246 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #baebf6 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .via-\[\#ffffff\] {
@@ -10072,6 +10076,11 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 1rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -10181,10 +10190,6 @@ details.collapse summary::-webkit-details-marker {
 
 .font-normal {
   font-weight: 400;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .uppercase {
@@ -10861,25 +10866,8 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .sm\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
-  .sm\:items-center {
-    align-items: center;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
   }
 
   .sm\:text-center {
@@ -10892,16 +10880,16 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 768px) {
+  .md\:me-6 {
+    margin-inline-end: 1.5rem;
+  }
+
   .md\:mr-24 {
     margin-right: 6rem;
   }
 
   .md\:mt-0 {
     margin-top: 0px;
-  }
-
-  .md\:me-6 {
-    margin-inline-end: 1.5rem;
   }
 
   .md\:block {
@@ -10912,16 +10900,16 @@ details.collapse summary::-webkit-details-marker {
     display: none;
   }
 
+  .md\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .md\:w-\[65\%\] {
     width: 65%;
   }
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-\[50\%\] {
-    width: 50%;
   }
 
   .md\:flex-row {
@@ -10998,11 +10986,6 @@ details.collapse summary::-webkit-details-marker {
     padding-bottom: 10rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .md\:pb-20 {
     padding-bottom: 5rem;
   }
@@ -11027,9 +11010,9 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (min-width: 1024px) {
-  .lg\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .lg\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -11038,26 +11021,6 @@ details.collapse summary::-webkit-details-marker {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:border-gray-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(55 65 81 / var(--tw-border-opacity));
-  }
-
-  .dark\:bg-gray-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  }
-
-  .dark\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
   @media (min-width: 1024px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;

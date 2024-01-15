@@ -66,6 +66,7 @@ include "navbar.php"
     </button>
   </div>
 
+  <!-- TENTANG -->
   <section class="md:px-16 md:py-40 flex gap-40 justify-center">
     <h2 class="font-extrabold text-[32px] grid-cols-1 font-bigShoulders bg-gradient-to-r from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Way Kalam</h2>
     <div class="md:w-[65%]">
@@ -74,6 +75,7 @@ include "navbar.php"
     </div>
   </section>
 
+  <!-- VISITOR N VIDEO -->
   <section class="md:px-10 md:pb-20 flex justify-center w-full">
     <iframe src="https://drive.google.com/file/d/1AVUQN7lWLPwGtA1c-EjdJjRkD_9u4etG/preview" width="810" height="457" class="rounded-2xl" allowfullscreen allow='autoplay'></iframe>
     <div class="bg-[#132758] flex justify-center items-center flex-col rounded-2xl ms-20" style="background-image: url(./images/visit.png); background-repeat: no-repeat; background-size: cover; min-width: 457px; min-height: 457px;">
@@ -213,37 +215,44 @@ include "navbar.php"
     </div>
   </section>
 
-  <footer>
-
-
-    <footer class="bg-[#132758] w-screen shadow">
-      <div class="w-full max-w-screen-xl p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between flex-col">
-          <div class="flex flex-col text-left">
-            <h2 class="font-bigShoulders text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">HUBUNGI KAMI</h2>
-            <p class="font-bigShoulders text-[64px] text-left font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MASIH RAGU DAN MEMILIKI BANYAK PERTANYAAN?</p>
+  <footer class="bg-[#132758] w-screen shadow flex justify-center" style="background-image: url(./images/footerVector.png); background-repeat: no-repeat; background-size: cover;">
+    <div class="w-full p-4 md:p-20">
+      <div class="flex gap-20 items-center">
+        <div class="flex flex-col text-left w-[50%]">
+          <h2 class="font-bigShoulders text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">HUBUNGI KAMI</h2>
+          <p class="font-bigShoulders text-[64px] text-left font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MASIH RAGU DAN MEMILIKI BANYAK PERTANYAAN?</p>
+        </div>
+        <div class="w-[50%]">
+          <p class="text-[20px] mb-8 text-white w-[80%]">Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592 082372825801</p>
+          <div class="">
+            <a href="" class="px-2"><i class="fa-brands fa-instagram fa-2xl text-white"></i></a>
+            <a href="" class="px-2"><i class="fa-brands fa-facebook fa-2xl text-white"></i></a>
+            <a href="" class="px-2"><i class="fa-solid fa-globe fa-2xl text-white"></i></a>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
-        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+      </div>
+      <hr class="my-6 border-gray-200 lg:my-20" />
+      <div class="flex justify-between items-center"">
+          <span class=" block text-sm text-white sm:text-center">© 2023 <a href="" class="hover:underline">© 2024 CONNECTH US ALL RIGHT RESERVED</span>
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:items-center">
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+              <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0" aria-current="page">Beranda</a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+              <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Wisata</a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+              <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">UMKM</a>
             </li>
             <li>
-              <a href="#" class="hover:underline">Contact</a>
+              <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Kontak</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Testimonial</a>
             </li>
           </ul>
       </div>
-    </footer>
-
-
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/daisyui@0.0.6/dist/full.js"></script>
