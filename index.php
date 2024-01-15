@@ -122,11 +122,10 @@ include "navbar.php"
             AIR TERJUN WAY KALAM
           </h2>
           <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
-            Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
+            Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
           </h5>
           <a href="#" class="block py-4 px-8 text-center text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-0 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        gap-6 md:
       </div>
       <div class="relative grid h-[25rem] md:h-[50rem] w-full max-w-[28rem] flex-col items-end overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
         <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
@@ -141,7 +140,6 @@ include "navbar.php"
           </h5>
           <a href="#" class="block py-4 px-8 text-center text-white border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        gap-6 md:
       </div>
       <div class="relative grid h-[25rem] md:h-[50rem] w-full max-w-[28rem] flex-col items-end overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
         <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">

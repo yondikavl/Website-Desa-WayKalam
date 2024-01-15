@@ -19,25 +19,30 @@ include "navbar.php"
     <title>Tentang | Way Kalam</title>
 </head>
 
-<body class="bg-slate-100 overflow-x-hidden">
-    <div class="h-screen w-screen relative">
+<body class="bg-white overflow-x-hidden">
+    <div class="h-1/2 md:h-screen w-screen relative pt-20 md:pt-0">
         <!-- Image -->
         <img src="./images/banner-tentang.png" alt="" class="w-full h-full object-cover">
 
         <!-- Text container -->
-        <div class="absolute w-full bottom-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-            <p class="mt-2 text-white text-[55px] font-bigShoulders font-black">DESA WISATA</p>
-            <h1 class="text-[280px] font-bigShoulders font-black">WAY KALAM</h1>
+        <div class="absolute w-full bottom-0 md:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+            <p class="mt-2 text-white text-[20px] md:text-[55px] font-bigShoulders font-black">DESA WISATA</p>
+            <h1 class="text-[62px] md:text-[280px] font-bigShoulders font-black">WAY KALAM</h1>
         </div>
     </div>
 
     <section class="p-6 md:p-20 flex gap-6 md:gap-40 flex-col md:flex-row">
         <table class="">
-            <tr class="">
-                <td class="flex justify-start">
+            <tr>
+                <td class="flex justify-center md:hidden py-6">
+                    <h2 class="font-bigShoulders font-black text-[20px] md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">AWAL PERJALANAN</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="md:flex justify-start hidden">
                     <h2 class="font-bigShoulders font-black md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">AWAL PERJALANAN</h2>
                 </td>
-                <td class="ps-6 md:ps-40 space-y-6 text-justify">
+                <td class="md:ps-40 space-y-6 text-justify">
                     <p class="text-base md:text-[14px]">Banyak hal menarik yang bisa anda temukan di Lampung Selatan. Kabupaten Serambi Sumatera ini memiliki sejuta potensi wisata yang siap untuk anda kunjungi</p>
                     <p class="text-base md:text-[14px]">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) Jarak tempuh 17 km dari pusat Kota Kalianda/Ibukota Kabupaten Lampung Selatan  dengan jarak tempuh 26 Menit, serta berlokasi di ketinggian 372 m dpl.  </p>
                     <p class="text-base md:text-[14px]">Mengangkat tema Desa Wisata Alam & Budaya, Desa Wisata Way Kalam menawarkan  kegiatan wisata pengalaman berupa pembelajaran dan interaksi tentang alam, lingkungan hidup, pertanian, perkebunan, wirausaha, kehidupan sosial budaya, aneka seni tradisi dan kearifan lokal yang  masih mengakar kuat di masyarakat dengan suasana khas pedesaan di lereng Gunung Rajabasa.</p>
@@ -45,11 +50,16 @@ include "navbar.php"
                 </td>
             </tr>
 
-            <tr class="py-20">
-                <td class="flex justify-start pt-6 md:pt-20">
+            <tr>
+                <td class="flex justify-center md:hidden py-6">
+                    <h2 class="font-bigShoulders font-black text-[20px] md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2015</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="md:flex justify-start hidden pt-6 md:pt-20">
                     <h2 class="font-bigShoulders font-black md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2015</h2>
                 </td>
-                <td class="ps-6 pt-6 md:pt-20 md:ps-40 space-y-6 text-justify">
+                <td class="md:pt-20 md:ps-40 space-y-6 text-justify">
                     <p class="text-base md:text-[14px]">Banyak hal menarik yang bisa anda temukan di Lampung Selatan. Kabupaten Serambi Sumatera ini memiliki sejuta potensi wisata yang siap untuk anda kunjungi</p>
                     <p class="text-base md:text-[14px]">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa (salah satu gunung yang terkenal di Kabupaten Lampung Selatan) Jarak tempuh 17 km dari pusat Kota Kalianda/Ibukota Kabupaten Lampung Selatan dengan jarak tempuh 26 Menit, serta berlokasi di ketinggian 372 m dpl.</p>
                     <p class="text-base md:text-[14px]">Mengangkat tema Desa Wisata Alam & Budaya, Desa Wisata Way Kalam menawarkan kegiatan wisata pengalaman berupa pembelajaran dan interaksi tentang alam, lingkungan hidup, pertanian, perkebunan, wirausaha, kehidupan sosial budaya, aneka seni tradisi dan kearifan lokal yang masih mengakar kuat di masyarakat dengan suasana khas pedesaan di lereng Gunung Rajabasa.</p>
@@ -72,38 +82,58 @@ include "navbar.php"
                 </td>
             </tr>
 
-            <tr class="py-20">
-                <td class="flex justify-start pt-6 md:pt-20">
+            <tr>
+                <td class="flex justify-center md:hidden py-6">
+                    <h2 class="font-bigShoulders font-black text-[20px] md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2019</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="md:flex justify-start hidden pt-6 md:pt-20">
                     <h2 class="font-bigShoulders font-black md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2019</h2>
                 </td>
-                <td class="ps-6 pt-6 md:pt-20 md:ps-40 space-y-6 text-justify">
+                <td class="md:pt-20 md:ps-40 space-y-6 text-justify">
                     <p class="text-base md:text-[14px]">Pada tahun 2019 Desa Wisata Way Kalam mulai untuk berbenah mendapatkan pendampingan dari berbagai pihak yang memberikan program peningkatan sarana dan prasarana perkemahan seperti perbaikan aula, kamar mandi, lapangan parkir dan peningkatan akses jalan masuk yang ada. Dengan adanya program tersebut maka tamu yang berkunjung mulai meningkat signifikan dan mencapai 3.000 orang dengan pemasukan yang cukup besar.</p>
                 </td>
             </tr>
 
-            <tr class="py-20">
-                <td class="flex justify-start pt-6 md:pt-20">
+            <tr>
+                <td class="flex justify-center md:hidden py-6">
+                    <h2 class="font-bigShoulders font-black text-[20px] md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2020</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="md:flex justify-start hidden pt-6 md:pt-20">
                     <h2 class="font-bigShoulders font-black md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2020</h2>
                 </td>
-                <td class="ps-6 pt-6 md:pt-20 md:ps-40 space-y-6 text-justify">
+                <td class="md:pt-20 md:ps-40 space-y-6 text-justify">
                     <p class="text-base md:text-[14px]">Tahun 2020 mendapatkan program dan bantuan digunakan untuk fasilitasi pelatihan SDM, seragam pemandu, penambahan sarana kesenian, kuliner dan cinderamata. Dengan Program Dana Desa ternyata mampu mempercepat upaya peningkatan sarana dan prasarana desa wisata, sehingga pada tahun 2020 kami telah memiliki homestay 30 rumah yang sudah bekerjasama dengan pihak OYYO, pemesanan sudah bisa melakukan pemesanan kamar homestay secara online , beraneka atraksi pertanian, seni budaya dan kuliner serta pelayanan yang mulai tertata baik.</p>
                 </td>
             </tr>
 
+            <tr>
+                <td class="flex justify-center md:hidden py-6">
+                    <h2 class="font-bigShoulders font-black text-[20px] md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2021</h2>
+                </td>
+            </tr>
             <tr class="py-20">
-                <td class="flex justify-start pt-6 md:pt-20">
+                <td class="md:flex justify-start hidden pt-6 md:pt-20">
                     <h2 class="font-bigShoulders font-black md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2021</h2>
                 </td>
-                <td class="ps-6 pt-6 md:pt-20 md:ps-40 space-y-6 text-justify">
+                <td class="md:pt-20 md:ps-40 space-y-6 text-justify">
                     <p class="text-base md:text-[14px]">Pada tahun 2021 jumlah tamu mencapai < 3.000 orang dari target> 5.000 orang. Keterlibatan masyarakat yang demikian besar dalam kegiatan Desa wisata Way Kalam merupakan sebuah proses yang terbentuk secara alami dimana Desa wisata Way Kalam mampu memberikan manfaat bagi masyarakatnya. Keterlibatan kaum perempuan dan pemudanya merupakan modal yang sangat berharga bagi keberlangsungan dan keberlanjutan Dewi Peri dimasa mendatang.</p>
                 </td>
             </tr>
 
+            <tr>
+                <td class="flex justify-center md:hidden py-6">
+                    <h2 class="font-bigShoulders font-black text-[20px] md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2022 - 2023</h2>
+                </td>
+            </tr>
             <tr class="py-20">
-                <td class="flex justify-start pt-6 md:pt-20">
+                <td class="md:flex justify-start hidden pt-6 md:pt-20">
                     <h2 class="font-bigShoulders font-black md:text-[32px] bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">2022 - 2023</h2>
                 </td>
-                <td class="ps-6 pt-6 md:pt-20 md:ps-40 space-y-6 text-justify">
+                <td class="md:pt-20 md:ps-40 space-y-6 text-justify">
                     <p class="text-base md:text-[14px]">Pada tahun 2022, Desa wisata Way Kalam kami anggap telah mampu memberdayakan sebagian besar anggota masyarakat (> 70%), dengan berbagai kelompok yang terlibat, seperti homestay (50 homestay/120 kamar), atraksi seni dan budaya (25 orang), pemandu wisata lokal/pemuda (20 orang), kuliner lokal (20 orang), home industri (5 orang), warung kelontong (6 unit) dan tenaga keamanan/pendukung (30 orang). Kami juga mampu memanfaatkan lahan desa yang terlantar menjadi tempat untuk pembudidayaa Lebah madu Peternakan Kambing (1 ha) Dan Air Terjun Way Kalam yang menjadi Icon Wisata yang ada di Desa Way Kalam . Daerah Aliran Sungai (DAS) dari air terjun way kalam menjadi area petualangan/tracking yang menarik bagi tamu, Selain itu kami juga telah bekerjasama dengan beberapa pihak di dalam desa seperti kelompok tani pemuda, perkebunan, pertanian, wanita tani, dsb. Kerjasama dengan pihak luar seperti Pemerintah Desa dengan tanah kas desa, kelompok kesenian, kelompok peternak.</p>
                     <p class="text-base md:text-[14px]">Pada saat ini (tahun 2022/2023) setelah mendapatkan pendampingan, bantuan pengembangan SDM dan fasilitas pariwisata dari berbagai pihak tingkat kunjungan wisatawan sudah stabil pada jumlah sekitar 5.000 orang per tahun dan pendapatan rata-rata mencapai Rp. 2.000.000 – Rp. 5.000.000/bulan.</p>
                     <p class="text-base md:text-[14px]">Dengan visi dan misi upaya pemberdayakan ekonomi dan sosial budaya masyarakat dengan tetap menjaga kearifan lokal, ke depan pengembangan Air Terjun akan diarahkan pada upaya-upaya pelestarian alam dan lingkungan secara berkelanjutan dengan tetap menjaga nilai luhur kehidupan sosial budaya pedesaan yang mampu dijadikan tontonan dan tuntunan bagi masyarakat lokal dan masyarakat di wilayah lainnya. </p>
@@ -111,6 +141,70 @@ include "navbar.php"
                 </td>
             </tr>
         </table>
+    </section>
+
+    <section class="p-6 md:p-20 bg-[#EBFAFD] flex justify-center flex-col w-full">
+        <div class="flex justify-center flex-col">
+            <p class="uppercase text-[14px] md:text-[32px] font-bigShoulders font-black text-center bg-gradient-to-br from-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">PENGHARGAAN</p>
+            <p class="uppercase text-[20px] md:text-[64px] font-bigShoulders font-black text-center text-[#132758]">apresiasi dan Pelatihan serta kunjungan tamu dari berbagai instansi/lembaga dan dari berbagai pihak, baik berupa materi maupun pengakuan administratif</p>
+        </div>
+        <div class="py-6 flex flex-wrap justify-between gap-6 md:gap-20">
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-lg p-6" src="./images/gambar1.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nama Penghargaan</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Detail</p>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-lg p-6" src="./images/gambar1.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nama Penghargaan</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Detail</p>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-lg p-6" src="./images/gambar1.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nama Penghargaan</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Detail</p>
+                </div>
+            </div> 
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-lg p-6" src="./images/gambar1.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nama Penghargaan</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Detail</p>
+                </div>
+            </div> 
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                <a href="#">
+                    <img class="rounded-lg p-6" src="./images/gambar1.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nama Penghargaan</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Detail</p>
+                </div>
+            </div> 
+        </div>
     </section>
 
     <footer class="bg-[#132758] w-screen shadow flex justify-center" style="background-image: url(./images/footerVector.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
