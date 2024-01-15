@@ -166,16 +166,16 @@ include "navbar.php"
       <div class="md:ms-20">
         <div class="carousel space-x-4 mt-20">
           <div class="carousel-item h-[25rem] md:h-[50rem]">
-            <img class="rounded-lg" src="./images/umkm1.png" alt="Burger" />
+            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
           </div>
           <div class="carousel-item h-[25rem] md:h-[50rem]">
-            <img class="rounded-lg" src="./images/umkm1.png" alt="Burger" />
+            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
           </div>
           <div class="carousel-item h-[25rem] md:h-[50rem]">
-            <img class="rounded-lg" src="./images/umkm1.png" alt="Burger" />
+            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
           </div>
           <div class="carousel-item h-[25rem] md:h-[50rem]">
-            <img class="rounded-lg md:mr-24" src="./images/umkm1.png" alt="Burger" />
+            <img class="rounded-lg md:mr-24" src="./images/umkm1.png" alt="Banana" />
           </div>
         </div>
       </div>

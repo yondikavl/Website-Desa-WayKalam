@@ -30,9 +30,9 @@ include "navbar.php";
 </head>
 
 <body class="bg-slate-100 overflow-x-hidden">
-    <section class="flex pt-16">
-        <div class="min-w-96 bg-[#EBFAFD] p-6">
-            <form class="pt-16">
+    <section class="flex pt-28 md:pt-16 flex-col-reverse md:flex-row">
+        <div class="md:max-w-96 bg-[#EBFAFD] p-6">
+            <form class="pt-6 md:pt-16">
                 <div class="flex">
                     <div class="relative w-full">
                         <input type="search" id="search-dropdown" class="block py-3 px-6 w-full z-20 text-gray-900 bg-white rounded-lg shadow-md shadow-gray-200 focus:ring-blue-500 focus:border-blue-500" placeholder="Cari Tujuan ..." required>
@@ -72,6 +72,79 @@ include "navbar.php";
                     <div class="max-w-12 flex items-center flex-col justify-end">
                         <img src="./images/icon-warung.svg" alt="">
                         <p>Warung</p>
+                    </div>
+                </div>
+
+
+                <div class="p-6">
+                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Wisata</h2>
+                    <div class="carousel space-x-4 mt-3">
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">UMKM</h2>
+                    <div class="carousel space-x-4 mt-3">
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Homestay</h2>
+                    <div class="carousel space-x-4 mt-3">
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <h2 class="font-bigShoulders text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Warung/Toko</h2>
+                    <div class="carousel space-x-4 mt-3">
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg" src="./images/umkm1.png" alt="Banana" />
+                        </div>
+                        <div class="carousel-item h-[16rem] md:h-[16rem]">
+                            <img class="rounded-lg md:mr-6" src="./images/umkm1.png" alt="Banana" />
+                        </div>
                     </div>
                 </div>
             </div>

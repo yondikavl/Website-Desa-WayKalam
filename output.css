@@ -8542,6 +8542,10 @@ details.collapse summary::-webkit-details-marker {
   margin-top: 5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -8669,6 +8673,10 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
+.h-\[16rem\] {
+  height: 16rem;
+}
+
 .h-\[25rem\] {
   height: 25rem;
 }
@@ -8733,16 +8741,16 @@ details.collapse summary::-webkit-details-marker {
   width: 100vw;
 }
 
-.min-w-96 {
-  min-width: 24rem;
-}
-
 .min-w-full {
   min-width: 100%;
 }
 
 .max-w-12 {
   max-width: 3rem;
+}
+
+.max-w-96 {
+  max-width: 24rem;
 }
 
 .max-w-\[28rem\] {
@@ -9309,10 +9317,6 @@ details.collapse summary::-webkit-details-marker {
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-4 {
@@ -10138,8 +10142,16 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 5rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-left {
@@ -10213,6 +10225,10 @@ details.collapse summary::-webkit-details-marker {
 
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[20px\] {
@@ -10966,6 +10982,10 @@ details.collapse summary::-webkit-details-marker {
     margin-right: 6rem;
   }
 
+  .md\:mr-6 {
+    margin-right: 1.5rem;
+  }
+
   .md\:ms-20 {
     margin-inline-start: 5rem;
   }
@@ -10984,6 +11004,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[16rem\] {
+    height: 16rem;
   }
 
   .md\:h-\[457px\] {
@@ -11030,12 +11054,20 @@ details.collapse summary::-webkit-details-marker {
     min-width: 457px;
   }
 
+  .md\:max-w-96 {
+    max-width: 24rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
 
   .md\:flex-col {
     flex-direction: column;
+  }
+
+  .md\:flex-col-reverse {
+    flex-direction: column-reverse;
   }
 
   .md\:items-center {
@@ -11154,6 +11186,10 @@ details.collapse summary::-webkit-details-marker {
     padding-top: 0px;
   }
 
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
   .md\:pt-20 {
     padding-top: 5rem;
   }
@@ -11165,6 +11201,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:text-\[14px\] {
     font-size: 14px;
+  }
+
+  .md\:text-\[16px\] {
+    font-size: 16px;
   }
 
   .md\:text-\[20px\] {
