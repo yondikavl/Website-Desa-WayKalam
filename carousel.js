@@ -1,46 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the carousel element
-  const carousel = document.getElementById("carouselExampleIndicators");
+  const carousel = document.querySelector("[data-te-carousel-init]");
+  const prevButton = document.querySelector('[data-te-slide="prev"]');
+  const nextButton = document.querySelector('[data-te-slide="next"]');
+  const indicators = document.querySelectorAll("[data-te-slide-to]");
 
-  // Get all carousel items
-  const items = carousel.querySelectorAll("[data-te-carousel-item]");
+  let currentSlide = 0;
 
-  // Get all carousel indicators
-  const indicators = carousel.querySelectorAll("[data-te-carousel-active]");
+  function showSlide(index) {
+    const items = carousel.querySelectorAll("[data-te-carousel-item]");
+    items[currentSlide].classList.remove("data-te-carousel-active");
+    currentSlide = index;
+    items[currentSlide].classList.add("data-te-carousel-active");
+  }
 
-  // Initialize the carousel
-  let currentIndex = 0;
+  function prevSlide() {
+    const newIndex = (currentSlide - 1 + indicators.length) % indicators.length;
+    showSlide(newIndex);
+  }
 
-  // Function to show the current slide
-  const showSlide = (index) => {
-    items.forEach((item, i) => {
-      item.classList.toggle("hidden", i !== index);
-    });
+  function nextSlide() {
+    const newIndex = (currentSlide + 1) % indicators.length;
+    showSlide(newIndex);
+  }
 
-    indicators.forEach((indicator, i) => {
-      indicator.setAttribute("aria-current", i === index ? "true" : "false");
-    });
-  };
-
-  // Function to go to the next slide
-  const nextSlide = () => {
-    currentIndex = (currentIndex + 1) % items.length;
-    showSlide(currentIndex);
-  };
-
-  // Function to go to the previous slide
-  const prevSlide = () => {
-    currentIndex = (currentIndex - 1 + items.length) % items.length;
-    showSlide(currentIndex);
-  };
-
-  // Add click event listeners to the next and previous buttons
-  const nextButton = carousel.querySelector('[data-te-slide="next"]');
-  const prevButton = carousel.querySelector('[data-te-slide="prev"]');
-
-  nextButton.addEventListener("click", nextSlide);
   prevButton.addEventListener("click", prevSlide);
+  nextButton.addEventListener("click", nextSlide);
 
-  // Initial display
-  showSlide(currentIndex);
+  indicators.forEach((indicator, index) => {
+    indicator.addEventListener("click", function () {
+      showSlide(index);
+    });
+  });
 });

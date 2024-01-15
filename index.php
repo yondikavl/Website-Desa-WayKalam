@@ -38,7 +38,7 @@ include "navbar.php"
       </div>
       <!-- Second item -->
       <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-        <img src="./images/gambar2.png" class="block w-full h-full object-cover" alt="Camera" />
+        <img src="./images/gambar1.png" class="block w-full h-full object-cover" alt="Camera" />
       </div>
       <!-- Third item -->
       <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
@@ -254,7 +254,8 @@ include "navbar.php"
       </div>
     </div>
   </footer>
-
+    
+  <script src="./carousel.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/daisyui@0.0.6/dist/full.js"></script>
 </body>
 
