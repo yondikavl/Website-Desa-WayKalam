@@ -62,7 +62,7 @@ include "navbar.php"
       <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
         <img src="./images/gambar3.png" class="block w-full h-full object-cover" alt="prestasi" />
         <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center md:justify-start p-6 md:p-20">
-          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black md:w-1/2">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</span>
+          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</span>
         </div>
       </div>
       <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
