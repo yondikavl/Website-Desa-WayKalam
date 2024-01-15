@@ -30,7 +30,7 @@ include "navbar.php";
 </head>
 
 <body class="bg-slate-100 overflow-x-hidden">
-    <section class="flex pt-20">
+    <section class="flex pt-16">
         <div class="min-w-96 bg-[#EBFAFD] p-6">
             <form class="pt-16">
                 <div class="flex">
@@ -45,7 +45,36 @@ include "navbar.php";
                     </div>
                 </div>
             </form>
-
+            <div class="my-6 bg-white rounded-lg shadow-md shadow-gray-200">
+                <div class="p-6 flex justify-between">
+                    <div class="max-w-12 flex items-center flex-col justify-end">
+                        <img src="./images/icon-semua.svg" alt="">
+                        <p>Semua</p>
+                    </div>
+                    <div class="max-w-12 flex items-center flex-col justify-end">
+                        <img src="./images/icon-wisata.svg" alt="">
+                        <p>Wisata</p>
+                    </div>
+                    <div class="max-w-12 flex items-center flex-col justify-end">
+                        <img src="./images/icon-umkm.svg" alt="">
+                        <p>UMKM</p>
+                    </div>
+                </div>
+                <div class="p-6 flex justify-between">
+                    <div class="max-w-12 flex items-center flex-col justify-end">
+                        <img src="./images/icon-homestay.svg" alt="">
+                        <p>Homestay</p>
+                    </div>
+                    <div class="max-w-12 flex items-center flex-col justify-end">
+                        <img src="./images/icon-peternakan.svg" alt="">
+                        <p>Peternakan</p>
+                    </div>
+                    <div class="max-w-12 flex items-center flex-col justify-end">
+                        <img src="./images/icon-warung.svg" alt="">
+                        <p>Warung</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="w-full">
             <img src="./images/map.png" alt="" class="w-full">
