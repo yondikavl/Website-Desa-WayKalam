@@ -20,7 +20,7 @@ include "navbar.php"
 
 </head>
 
-<body class="bg-slate-100 overflow-x-hidden">
+<body class="bg-white overflow-x-hidden">
   <div id="carouselExampleIndicators" class="relative" data-te-carousel-init data-te-ride="carousel" data-car>
     <!--Carousel indicators-->
     <div class="absolute bottom-0 left-0 right-0 z-[2] px-6 md:px-20 mb-4 flex list-none justify-center md:justify-between py-20 items-center" data-te-carousel-indicators>

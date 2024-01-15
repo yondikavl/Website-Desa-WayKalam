@@ -1,4 +1,4 @@
-<nav class="fixed z-10 w-full bg-white md:bg-transparent" style="backdrop-filter: blur(2px);">
+<nav class="fixed z-50 w-full bg-white md:bg-transparent" style="backdrop-filter: blur(2px);">
   <div class="flex flex-wrap items-center justify-between mx-auto p-6 md:px-20">
     <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="./Logo.svg" alt="Flowbite Logo" class="h-16" />
@@ -13,22 +13,22 @@
     <div class="hidden w-full h-screen md:h-auto md:block md:w-auto" id="navbar-default">
       <ul class="font-medium h-screen items-center justify-around md:justify-normal md:h-auto flex flex-col md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:items-center">
         <li>
-          <a href="./index.php" class="block py-2 px-3 text-white bg-[#132758] rounded md:bg-transparent md:p-0 md:hover:text-blue-700" aria-current="page">Beranda</a>
+          <a href="./index.php" id="nav-menu" class="block py-2 px-3 text-white bg-[#132758] rounded md:bg-transparent md:p-0 md:hover:text-blue-700" aria-current="page">Beranda</a>
         </li>
         <li>
-          <a href="./tentang.php" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Tentang</a>
+          <a href="./tentang.php" id="nav-menu" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Tentang</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Wisata</a>
+          <a href="#" id="nav-menu" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Wisata</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">UMKM</a>
+          <a href="#" id="nav-menu" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">UMKM</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Kontak</a>
+          <a href="#" id="nav-menu" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Kontak</a>
         </li>
         <li>
-          <a href="#" class="block py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-y-3 md:px-6 md:hover:bg-[#132758]"><span class="me-2">Map Interaktif</span><i class="fa-regular fa-map"></i></a>
+          <a href="./mapInteraktif.php" class="block py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-y-3 md:px-6 md:hover:bg-[#132758]"><span class="me-2">Map Interaktif</span><i class="fa-regular fa-map"></i></a>
         </li>
       </ul>
     </div>
