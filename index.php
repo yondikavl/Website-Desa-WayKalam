@@ -21,50 +21,57 @@ include "navbar.php"
 </head>
 
 <body class="bg-slate-100 overflow-x-hidden">
-  <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
   <div id="carouselExampleIndicators" class="relative" data-te-carousel-init data-te-ride="carousel" data-car>
     <!--Carousel indicators-->
-    <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0" data-te-carousel-indicators>
-      <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="0" data-te-carousel-active class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="1" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-label="Slide 2"></button>
-      <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="2" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-label="Slide 3"></button>
+    <div class="absolute bottom-0 left-0 right-0 z-[2] px-6 md:px-20 mb-4 flex list-none justify-center md:justify-between py-20 items-center" data-te-carousel-indicators>
+      <div class="">
+        <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="0" data-te-carousel-active class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[2000ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="1" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[2000ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-label="Slide 2"></button>
+        <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="2" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[2000ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-label="Slide 3"></button>
+        <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="3" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[2000ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-label="Slide 4"></button>
+        <button type="button" data-te-target="#carouselExampleIndicators" data-te-slide-to="4" class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[2000ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-label="Slide 5"></button>
+      </div>
+      <div class="w-[50%] hidden md:block">
+        <p class=" text-white text-[20px]">Di sini, terbentang cerita petualangan, desa wisata memikat hati. Dari air terjun yang menjulang tinggi hingga berkemah di hutan alami. Rencanakan perjalananmu, temukan pengalaman dan kebahagiaan, di setiap klik halaman kami.</p>
+      </div>
     </div>
 
     <!--Carousel items-->
     <div class="relative w-full overflow-hidden after:clear-both after:block after:content-[''] h-screen">
-      <!-- First item -->
-      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none backdrop-filter backdrop-brightness-150" data-te-carousel-item data-te-carousel-active>
-        <img src="./images/gambar2.png" class="block w-full h-full object-cover" alt="Wild Landscape" />
+      <!-- First item with text overlay -->
+      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none backdrop-filter backdrop-brightness-150" data-te-carousel-item data-te-carousel-active>
+        <img src="./images/gambar1.png" class="block w-full h-full object-cover" alt="air terjun way kalam" />
+        <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center md:justify-start md:p-20">
+          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black md:w-1/3">AIR TERJUN WAY KALAM</span>
+        </div>
       </div>
-      <!-- Second item -->
-      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-        <img src="./images/gambar1.png" class="block w-full h-full object-cover" alt="Camera" />
+      <!-- Second item with text overlay -->
+      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
+        <img src="./images/gambar2.png" class="block w-full h-full object-cover" alt="air terjun anakan" />
+        <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center md:justify-start md:p-20">
+          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black md:w-1/3">AIR TERJUN ANAKAN</span>
+        </div>
       </div>
-      <!-- Third item -->
-      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-        <img src="./images/gambar2.png" class="block w-full h-full object-cover" alt="Exotic Fruits" />
+      <!-- Third item with text overlay -->
+      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
+        <img src="./images/gambar3.png" class="block w-full h-full object-cover" alt="camping ground" />
+        <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center md:justify-start md:p-20">
+          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black md:w-1/3">CAMPING GROUND</span>
+        </div>
+      </div>
+      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
+        <img src="./images/gambar3.png" class="block w-full h-full object-cover" alt="prestasi" />
+        <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center md:justify-start p-6 md:p-20">
+          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black md:w-1/2">MASUK KEDALAM 300 DESA WISATA TERBAIK DI INDONESIA</span>
+        </div>
+      </div>
+      <div class="relative float-left -mr-[100%] w-full h-[100%] transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
+        <img src="./images/gambar3.png" class="block w-full h-full object-cover" alt="camping ground" />
+        <div class="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center md:justify-start md:p-20">
+          <span class="text-white text-[24px] md:text-[96px] font-bigShoulders font-black md:w-1/3">CAMPING GROUND</span>
+        </div>
       </div>
     </div>
-
-
-    <!--Carousel controls - prev item-->
-    <button class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none" type="button" data-te-target="#carouselExampleIndicators" data-te-slide="prev">
-      <span class="inline-block h-8 w-8">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-        </svg>
-      </span>
-      <span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
-    </button>
-    <!--Carousel controls - next item-->
-    <button class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none" type="button" data-te-target="#carouselExampleIndicators" data-te-slide="next">
-      <span class="inline-block h-8 w-8">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-        </svg>
-      </span>
-      <span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
-    </button>
   </div>
 
   <!-- TENTANG -->
@@ -79,14 +86,14 @@ include "navbar.php"
   <!-- VISITOR N VIDEO -->
   <section class="py-10 md:py-0 px-6 md:px-10 md:pb-20 flex justify-center w-full items-center flex-col md:flex-row gap-4 md:gap-0 overflow-x-hidden">
     <iframe src="https://drive.google.com/file/d/1AVUQN7lWLPwGtA1c-EjdJjRkD_9u4etG/preview" class="rounded-2xl w-full md:w-[810px] md:h-[457px] md:px-2 md:p-0" allowfullscreen allow='autoplay'></iframe>
-    <div class="bg-[#132758] flex justify-center items-center flex-col rounded-2xl my-8 md:my-8 ms-0 md:ms-20 min-w-full min-h-full py-10 md:py-0 md:min-w-[457px] md:min-h-[457px]" style="background-image: url(./images/visit.png); background-repeat: no-repeat; background-size: cover;">
+    <div class="bg-[#132758] flex justify-center items-center flex-row md:flex-col rounded-2xl my-8 md:my-8 ms-0 md:ms-20 min-w-full min-h-full py-10 md:py-0 md:min-w-[457px] md:min-h-[457px] gap-10 md:gap-0" style="background-image: url(./images/visit.png); background-repeat: no-repeat; background-size: cover;">
       <div class="flex justify-center items-center flex-col">
-        <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
-        <p class="text-2xl text-white">Pengunjung Air Terjun</p>
+        <p class="font-bigShoulders font-black text-[32px] md:text-[64px]" style=" background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">2000+</p>
+        <p class="md:text-2xl text-white">Pengunjung Air Terjun</p>
       </div>
       <div class="flex justify-center items-center flex-col">
-        <p style="font-size: 64px; font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">22+</p>
-        <p class="text-2xl text-white">Homestay</p>
+        <p class="font-bigShoulders font-black text-[32px] md:text-[64px]" style="background: var(--p2, linear-gradient(137deg, #fff 24.22%, #7cdbf0 105.58%)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">22+</p>
+        <p class="md:text-2xl text-white">Homestay</p>
       </div>
     </div>
   </section>
@@ -94,18 +101,18 @@ include "navbar.php"
   <section class="px-6 md:px-20 py-10 md:py-20 bg-[#E2F6FF] overflow-hidden" style="background-image: url(./images/bg1.svg); background-repeat: no-repeat; background-size: cover;">
     <div class="flex justify-center w-full items-center flex-col md:flex-row">
       <div class="md:w-[50%]">
-        <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">WISATA</h2>
-        <p class="font-bigShoulders text-[32px] md:text-[64px] font-black text-[#132758]">EXPLORE THE VILLAGE AND PRECISION BEHIN OUR HEALING AND ENJOY</p>
+        <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">WISATA</h2>
+        <p class="font-bigShoulders text-[20px] md:text-[64px] font-black text-[#132758]">EXPLORE THE VILLAGE AND PRECISION BEHIN OUR HEALING AND ENJOY</p>
       </div>
       <div class="py-6 md:py-0 md:ms-20 md:w-[50%]">
-        <p class="text-[#132758] text-[20px] mb-8">
+        <p class="text-[#132758] md:text-[20px] mb-8">
           Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
         </p>
-        <a href="#" class="my-10 md:my-0 py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="hidden md:block py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
-    <div class="py-6 md:p-20 flex gap-6 md:gap-20 justify-center flex-col md:flex-row">
+    <div class="pb-6 md:p-20 flex gap-6 md:gap-20 justify-center flex-col md:flex-row">
       <div class="relative grid h-[25rem] md:h-[50rem] w-full max-w-[50rem] flex-col items-end overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
         <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
           <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
@@ -178,42 +185,42 @@ include "navbar.php"
   </section>
 
   <section class="">
-    <div class="px-6 md:p-20 flex gap-10 md:gap-20 justify-center w-full items-center flex-col-reverse md:flex-row">
+    <div class="p-6 md:p-20 flex gap-10 md:gap-20 justify-center w-full items-center flex-col-reverse md:flex-row">
       <div class="py-6 md:py-0 md:w-[50%]"><img src="./images/penghargaan1.png" alt="Anugerah Desa Wisata Indonesia 2023"></div>
       <div class="md:w-[50%]">
-        <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">PENGHARGAAN</h2>
-        <p class="font-bigShoulders text-[32px] md:text-[64px] font-black text-[#132758]">ANUGRAH DESA WISATA INDONESIA 2023</p>
-        <p class="text-[20px]">Desa Wisata Way Kalam tak ada henti hentinya mencetak prestasi di tingkat nasional. Kali ini, Way Kalam dipilih oleh Kemenparekraf sebagai Anugerah Desa Wisata Indonesia 2023 dengan tema Desa Sebagai Simbol Kebangkitan Nasional. </p>
+        <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">PENGHARGAAN</h2>
+        <p class="font-bigShoulders text-[20px] md:text-[64px] font-black text-[#132758]">ANUGRAH DESA WISATA INDONESIA 2023</p>
+        <p class="md:text-[20px]">Desa Wisata Way Kalam tak ada henti hentinya mencetak prestasi di tingkat nasional. Kali ini, Way Kalam dipilih oleh Kemenparekraf sebagai Anugerah Desa Wisata Indonesia 2023 dengan tema Desa Sebagai Simbol Kebangkitan Nasional. </p>
       </div>
     </div>
 
     <div class="px-6 md:p-20 flex gap-10 md:gap-20 justify-center w-full items-center flex-col md:flex-row">
       <div class="md:w-[50%]">
-        <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">PENGHARGAAN</h2>
-        <p class="font-bigShoulders text-[32px] md:text-[64px] font-black text-[#132758]">300 BESAR ANUGRAH DESA WISATA INDONESIA 2022</p>
-        <p class="text-[20px]">Desa Way Kalam merupakan satu dari 300 besar Anugerah Desa Wisata Indonesia Tahun 2022. Tidak hanya tahun 2022, pada tahun 2021 Desa Way Kalam juga menerima penghargaan yang sama sebagai desa wisata yang berkualitas.  </p>
+        <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">PENGHARGAAN</h2>
+        <p class="font-bigShoulders text-[20px] md:text-[64px] font-black text-[#132758]">300 BESAR ANUGRAH DESA WISATA INDONESIA 2022</p>
+        <p class="md:text-[20px]">Desa Way Kalam merupakan satu dari 300 besar Anugerah Desa Wisata Indonesia Tahun 2022. Tidak hanya tahun 2022, pada tahun 2021 Desa Way Kalam juga menerima penghargaan yang sama sebagai desa wisata yang berkualitas.  </p>
       </div>
       <div class="py-6 md:py-0 md:w-[50%]"><img src="./images/penghargaan2.png" alt="Anugerah Desa Wisata Indonesia 2023"></div>
     </div>
 
     <div class="bg-[#132758] w-screen flex p-6 md:p-20 gap-10 md:gap-20 items-center flex-col md:flex-row" style="background-image: url(./images/bg-penghargaan.png); background-repeat: no-repeat; background-size: cover;">
-      <p class="md:w-[50%] font-bigShoulders text-[32px] md:text-[64px] font-black bg-gradient-to-br from-[#ffffff] via-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">LIHAT PENGHARGAAN DESA WAY KALAM LEBIH BANYAK</p>
+      <p class="md:w-[50%] font-bigShoulders text-[14px] md:text-[64px] font-black bg-gradient-to-br from-[#ffffff] via-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">LIHAT PENGHARGAAN DESA WAY KALAM LEBIH BANYAK</p>
       <div class="md:w-[50%] py-6 md:py-0">
-        <p class="text-[20px] mb-8">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan</p>
+        <p class="md:text-[20px] mb-8">Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan</p>
         <a href="#" class="my-6 py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
   </section>
 
   <section class="px-6 py-10 md:p-20 text-center bg-[#E2F6FF]">
-    <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">TESTIMONIAL</h2>
-    <p class="font-bigShoulders text-[32px] md:text-[64px] font-black text-[#132758]">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA!</p>
+    <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">TESTIMONIAL</h2>
+    <p class="font-bigShoulders text-[20px] md:text-[64px] font-black text-[#132758]">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA!</p>
   </section>
 
   <section class="p-6 md:p-20">
     <div class="bg-[#132758] flex flex-col py-6 md:p-20 rounded-3xl gap-10 md:gap-20 items-center" style="background-image: url(./images/bg-mi.png); background-repeat: no-repeat; background-size: cover;">
-      <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MAP INTERAKTIF</h2>
-      <p class="font-bigShoulders text-[32px] md:text-[64px] md:w-[50%] text-center font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">TAKUT NYASAR? TEMUKAN PETANYA DISINI!</p>
+      <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MAP INTERAKTIF</h2>
+      <p class="font-bigShoulders text-[20px] md:text-[64px] md:w-[50%] text-center font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">TAKUT NYASAR? TEMUKAN PETANYA DISINI!</p>
       <a href="#" class="py-4 px-8 text-[#132758] bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-3 md:px-6"><span class="me-2 font-bold">Map Interaktif</span><i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
@@ -222,8 +229,8 @@ include "navbar.php"
     <div class="w-full p-4 md:p-20">
       <div class="flex gap-10 md:gap-20 items-center flex-col md:flex-row">
         <div class="flex flex-col text-left md:w-[50%]">
-          <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">HUBUNGI KAMI</h2>
-          <p class="font-bigShoulders text-[32px] md:text-[64px] text-left font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MASIH RAGU DAN MEMILIKI BANYAK PERTANYAAN?</p>
+          <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">HUBUNGI KAMI</h2>
+          <p class="font-bigShoulders text-[20px] md:text-[64px] text-left font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MASIH RAGU DAN MEMILIKI BANYAK PERTANYAAN?</p>
         </div>
         <div class="md:w-[50%]">
           <p class="md:text-[20px] mb-8 text-white w-[80%]">Way Kalam, Kec. Penengahan, Kabupaten Lampung Selatan, Lampung 35592 082372825801</p>
@@ -254,7 +261,7 @@ include "navbar.php"
       </div>
     </div>
   </footer>
-    
+
   <script src="./carousel.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/daisyui@0.0.6/dist/full.js"></script>
 </body>

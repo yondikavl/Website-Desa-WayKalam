@@ -11,7 +11,7 @@
     </button>
 
     <div class="hidden w-full h-screen md:h-auto md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:items-center">
+      <ul class="font-medium h-screen md:h-auto flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:items-center">
         <li>
           <a href="./index.php" class="block py-2 px-3 text-white bg-[#132758] rounded md:bg-transparent md:p-0 md:hover:text-blue-700" aria-current="page">Beranda</a>
         </li>
