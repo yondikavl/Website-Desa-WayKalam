@@ -99,6 +99,7 @@ include "navbar.php"
   </section>
 
   <section class="px-6 md:px-20 py-10 md:py-20 bg-[#E2F6FF] overflow-hidden" style="background-image: url(./images/bg1.svg); background-repeat: no-repeat; background-size: cover;">
+  <div id="wisata"></div>
     <div class="flex justify-center w-full items-center flex-col md:flex-row">
       <div class="md:w-[50%]">
         <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">WISATA</h2>
@@ -108,7 +109,7 @@ include "navbar.php"
         <p class="text-[#132758] md:text-[20px] mb-8">
           Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
         </p>
-        <a href="#" class="hidden md:block py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="hidden md:flex py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
@@ -156,7 +157,8 @@ include "navbar.php"
         </div>
       </div>
     </div>
-
+    
+    <div id="umkm"></div>
     <div class="py-10 flex justify-center w-screen items-center md:py-20 flex-col md:flex-row overflow-hidden">
       <div class="w-full md:w-[50%]">
         <h2 class="font-bigShoulders text-[20px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">PRODUK UMKM DESA</h2>
@@ -276,7 +278,7 @@ include "navbar.php"
     </div>
   </section>
 
-  <footer class="bg-[#132758] w-screen shadow flex justify-center" style="background-image: url(./images/footerVector.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+  <footer id="kontak" class="bg-[#132758] w-screen shadow flex justify-center" style="background-image: url(./images/footerVector.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
     <div class="w-full p-4 md:p-20">
       <div class="flex gap-10 md:gap-20 items-center flex-col md:flex-row">
         <div class="flex flex-col text-left md:w-[50%]">
@@ -294,7 +296,7 @@ include "navbar.php"
       </div>
       <hr class="my-6 border-gray-200 lg:my-20" />
       <div class="flex justify-between items-start md:items-center flex-col md:flex-row">
-        <span class=" block text-sm text-white sm:text-center">© 2023 <a href="" class="hover:underline">© 2024 CONNECTH US ALL RIGHT RESERVED</span>
+        <span class=" block text-sm text-white sm:text-center"><a href="" class="hover:underline">© 2024 CONNECTH US ALL RIGHT RESERVED</span>
         <ul class="md:font-medium flex flex-row p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:mt-0 items-start md:items-center">
           <li>
             <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Wisata</a>
