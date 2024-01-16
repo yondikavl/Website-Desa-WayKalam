@@ -18,6 +18,12 @@ include "navbar.php"
 
   <title>Beranda | Way Kalam</title>
 
+  <style>
+    .container .box:hover {
+      width: 60rem;
+    }
+  </style>
+
 </head>
 
 <body class="bg-white overflow-x-hidden">
@@ -99,7 +105,7 @@ include "navbar.php"
   </section>
 
   <section class="px-6 md:px-20 py-10 md:py-20 bg-[#E2F6FF] overflow-hidden" style="background-image: url(./images/bg1.svg); background-repeat: no-repeat; background-size: cover;">
-  <div id="wisata"></div>
+    <div id="wisata"></div>
     <div class="flex justify-center w-full items-center flex-col md:flex-row">
       <div class="md:w-[50%]">
         <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">WISATA</h2>
@@ -113,51 +119,53 @@ include "navbar.php"
       </div>
     </div>
 
-    <div class="pb-6 md:p-20 flex gap-6 md:gap-20 justify-center flex-col md:flex-row">
-      <div class="relative grid h-[25rem] md:h-[50rem] w-full max-w-[50rem] flex-col items-end overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-        <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-          <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
+    <div class="pb-6 md:py-20 flex gap-6 md:gap-20 justify-center items-center flex-col md:flex-row">
+        <div class="container md:h-[50rem] flex flex-col md:flex-row md:grid" style="position: relative; grid-template-columns: 1fr 1fr 1fr; gap: 1em; transition: all 500ms;">
+          <div class="box relative bg-[#17141f] bg-cover flex justify-start items-end rounded-lg w-auto" style="transition: all 500ms;">
+            <div class="absolute inset-0 m-0 h-full w-full overflow-hidden bg-transparent bg-[url(./images/gambar1.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none rounded-2xl">
+              <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
+            </div>
+            <div class="relative p-6 px-6 py-14 md:px-12 text-left">
+              <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
+                AIR TERJUN WAY KALAM
+              </h2>
+              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
+                Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
+              </h5>
+              <a href="#" class="block py-4 px-8 text-center text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-0 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="box box-2 relative bg-[#17141f] bg-cover flex justify-start items-end rounded-lg" style="transition: all 400ms;">
+            <div class="absolute inset-0 m-0 h-full w-full overflow-hidden bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none rounded-2xl">
+              <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
+            </div>
+            <div class="relative p-6 px-6 py-14 md:px-12 text-left">
+              <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
+                AIR TERJUN ANAKAN
+              </h2>
+              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
+                Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
+              </h5>
+              <a href="#" class="block py-4 px-8 text-center text-white border-2 border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="box box-3 relative bg-[#17141f] bg-cover flex justify-start items-end rounded-lg" style="transition: all 400ms;">
+            <div class="absolute inset-0 m-0 h-full w-full overflow-hidden bg-transparent bg-[url(./images/gambar3.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none rounded-2xl">
+              <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
+            </div>
+            <div class="relative p-6 px-6 py-14 md:px-12 text-left">
+              <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
+                CAMPING GROUND
+              </h2>
+              <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
+                Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
+              </h5>
+              <a href="#" class="block py-4 px-8 text-center text-white border-2 border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="relative p-6 px-6 py-14 md:px-12 text-left">
-          <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
-            AIR TERJUN WAY KALAM
-          </h2>
-          <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
-            Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan. Berlokasi di kawasan lereng gunung Rajabasa.
-          </h5>
-          <a href="#" class="block py-4 px-8 text-center text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-0 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <div class="relative grid h-[25rem] md:h-[50rem] w-full max-w-[28rem] flex-col items-end overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-        <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-          <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-        </div>
-        <div class="relative p-6 px-6 py-14 md:px-12 text-left">
-          <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
-            AIR TERJUN ANAKAN
-          </h2>
-          <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
-            Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
-          </h5>
-          <a href="#" class="block py-4 px-8 text-center text-white border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-      </div>
-      <div class="relative grid h-[25rem] md:h-[50rem] w-full max-w-[28rem] flex-col items-end overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-        <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url(./images/gambar2.png)] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-          <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-        </div>
-        <div class="relative p-6 px-6 py-14 md:px-12 text-left">
-          <h2 class="mb-6 block text-[32px] font-black font-bigShoulders leading-[1.5] tracking-normal text-white antialiased">
-            CAMPING GROUND
-          </h2>
-          <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
-            Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
-          </h5>
-          <a href="#" class="block py-4 px-8 text-center text-white border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6 items-center"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-      </div>
     </div>
-    
+
     <div id="umkm"></div>
     <div class="py-10 flex justify-center w-screen items-center md:py-20 flex-col md:flex-row overflow-hidden">
       <div class="w-full md:w-[50%]">
@@ -299,7 +307,7 @@ include "navbar.php"
     <div class="bg-[#132758] flex flex-col py-6 md:p-20 rounded-3xl gap-10 md:gap-20 items-center" style="background-image: url(./images/bg-mi.png); background-repeat: no-repeat; background-size: cover;">
       <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MAP INTERAKTIF</h2>
       <p class="font-bigShoulders text-[20px] md:text-[64px] md:w-[50%] text-center font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">TAKUT NYASAR? TEMUKAN PETANYA DISINI!</p>
-      <a href="./mapInteraktif.php" class="py-4 px-8 text-[#132758] bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-3 md:px-6"><span class="me-2 font-bold">Map Interaktif</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="./mapInteraktif.php" class="py-4 px-8 text-[#132758] bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] rounded-lg hover:bg-gray-100 md:border-0 md:hover:text-blue-700 md:py-3 md:px-6 flex items-center"><span class="me-2 font-bold text-base md:text-[14px]">Map Interaktif</span><img src="./images/icon-map-dark.svg" alt="map"></a>
     </div>
   </section>
 

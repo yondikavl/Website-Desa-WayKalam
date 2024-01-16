@@ -8530,8 +8530,8 @@ details.collapse summary::-webkit-details-marker {
   margin-inline-end: 0.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .ms-0 {
@@ -8552,10 +8552,6 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
 }
 
 .box-border {
@@ -8709,6 +8705,14 @@ details.collapse summary::-webkit-details-marker {
   height: 100vh;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .max-h-32 {
   max-height: 8rem;
 }
@@ -8765,16 +8769,16 @@ details.collapse summary::-webkit-details-marker {
   width: weird-and-invalid;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[40\%\] {
-  width: 40%;
 }
 
 .min-w-28 {
@@ -8787,14 +8791,6 @@ details.collapse summary::-webkit-details-marker {
 
 .max-w-12 {
   max-width: 3rem;
-}
-
-.max-w-\[28rem\] {
-  max-width: 28rem;
-}
-
-.max-w-\[50rem\] {
-  max-width: 50rem;
 }
 
 .max-w-sm {
@@ -9363,10 +9359,6 @@ details.collapse summary::-webkit-details-marker {
   gap: 1.5rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -9723,14 +9715,6 @@ details.collapse summary::-webkit-details-marker {
   border-radius: 0.375rem;
 }
 
-.rounded-none {
-  border-radius: 0px;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -9804,6 +9788,10 @@ details.collapse summary::-webkit-details-marker {
 
 .border-0 {
   border-width: 0px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-x {
@@ -9893,6 +9881,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(19 39 88 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#17141f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 20 31 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#7CDBF0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(124 219 240 / var(--tw-bg-opacity));
@@ -9927,8 +9920,16 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\.\/images\/gambar1\.png\)\] {
+  background-image: url(./images/gambar1.png);
+}
+
 .bg-\[url\(\.\/images\/gambar2\.png\)\] {
   background-image: url(./images/gambar2.png);
+}
+
+.bg-\[url\(\.\/images\/gambar3\.png\)\] {
+  background-image: url(./images/gambar3.png);
 }
 
 .bg-gradient-to-br {
@@ -10199,10 +10200,6 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .text-left {
@@ -10726,12 +10723,6 @@ details.collapse summary::-webkit-details-marker {
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.backdrop-brightness-150 {
-  --tw-backdrop-brightness: brightness(1.5);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 .backdrop-grayscale {
   --tw-backdrop-grayscale: grayscale(100%);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -11051,6 +11042,10 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:hidden {
