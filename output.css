@@ -8530,6 +8530,10 @@ details.collapse summary::-webkit-details-marker {
   margin-inline-end: 0.5rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .ms-0 {
   margin-inline-start: 0px;
 }
@@ -8548,6 +8552,10 @@ details.collapse summary::-webkit-details-marker {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .box-border {
@@ -8661,6 +8669,10 @@ details.collapse summary::-webkit-details-marker {
   height: 4rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -8713,6 +8725,10 @@ details.collapse summary::-webkit-details-marker {
   width: 2.5rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -8755,6 +8771,10 @@ details.collapse summary::-webkit-details-marker {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[40\%\] {
+  width: 40%;
 }
 
 .min-w-28 {
@@ -9343,6 +9363,10 @@ details.collapse summary::-webkit-details-marker {
   gap: 1.5rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -9869,9 +9893,9 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(19 39 88 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#708fde\] {
+.bg-\[\#7CDBF0\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(112 143 222 / var(--tw-bg-opacity));
+  background-color: rgb(124 219 240 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#E2F6FF\] {
@@ -9901,16 +9925,6 @@ details.collapse summary::-webkit-details-marker {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#7CDBF0\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(124 219 240 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\.\/images\/gambar2\.png\)\] {
@@ -10185,6 +10199,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-left {

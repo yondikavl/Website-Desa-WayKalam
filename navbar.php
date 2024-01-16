@@ -28,7 +28,7 @@
           <a href="#" id="nav-menu" class="block py-2 px-3 md:text-white text-[#132758] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Kontak</a>
         </li>
         <li>
-          <a href="./mapInteraktif.php" class="block py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-y-3 md:px-6 md:hover:bg-[#132758]"><span class="me-2">Map Interaktif</span><i class="fa-regular fa-map"></i></a>
+          <a href="./mapInteraktif.php" class="block py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:border-0 md:hover:text-white md:p-y-3 md:px-6 md:hover:bg-[#132758]"><span class="me-2">Map Interaktif</span><i class="fa-regular fa-map"></i></a>
         </li>
       </ul>
     </div>

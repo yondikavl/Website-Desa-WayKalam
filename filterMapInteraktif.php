@@ -77,7 +77,7 @@ include "navbar.php";
             </div>
 
             <div class="py-6">
-                <a href="" class="flex items-center py-4 px-8 text-white bg-[#7CDBF0] rounded-lg md:p-y-3 md:px-6">
+                <a href="" class="flex items-center justify-center py-4 px-8 text-white bg-[#7CDBF0] rounded-lg md:p-y-3 md:px-6">
                     <p class="flex items-center space-x-2 text-[#132758] font-bold">Filter Aktif: Wisata</p>
                     <img src="./images/icon-wisata.svg" alt="wisata" class="h-5 px-2 filter invert-1">
                 </a>

@@ -213,13 +213,66 @@ include "navbar.php"
   <section class="px-6 py-10 md:p-20 text-center bg-[#E2F6FF]">
     <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">TESTIMONIAL</h2>
     <p class="font-bigShoulders text-[20px] md:text-[64px] font-black text-[#132758]">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA!</p>
+    <div class="w-full flex flex-col md:flex-row gap-6 md:gap-20 py-6">
+      <div class="bg-white p-6 md:w-[50%] rounded-lg">
+        <div class="flex pb-6">
+          <div class="avatar">
+            <div class="w-24 h-24 rounded">
+              <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" class="w-full h-full object-cover" />
+            </div>
+          </div>
+          <div class="ml-6 flex flex-col items-start justify-between">
+            <div class="flex flex-col items-start">
+              <p>Wiwin Andayani</p>
+              <p>Mahasiswa</p>
+            </div>
+            <div class="space-x-2">
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-justify">
+          <p>Akses jalannya udah bagus, fasilitas juga lumayan, tempat parkir luas dan aman...yg bawa motor bisa parkir on the spot dan yg bawa mobil bisa parkir didepan bayar 15K masuk air terjun per orang bayar 7K, ada ojek juga bayarnya sukarela...harus siap stamina kalo mau ke air terjun ini tapi bagus banget...beli duren dan pete juga murah</p>
+        </div>
+      </div>
+      <div class="bg-white p-6 md:w-[50%] rounded-lg">
+        <div class="flex pb-6">
+          <div class="avatar">
+            <div class="w-24 h-24 rounded">
+              <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" class="w-full h-full object-cover" />
+            </div>
+          </div>
+          <div class="ml-6 flex flex-col items-start justify-between">
+            <div class="flex flex-col items-start">
+              <p>Wiwin Andayani</p>
+              <p>Mahasiswa</p>
+            </div>
+            <div class="space-x-2">
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-justify">
+          <p>Akses jalannya udah bagus, fasilitas juga lumayan, tempat parkir luas dan aman...yg bawa motor bisa parkir on the spot dan yg bawa mobil bisa parkir didepan bayar 15K masuk air terjun per orang bayar 7K, ada ojek juga bayarnya sukarela...harus siap stamina kalo mau ke air terjun ini tapi bagus banget...beli duren dan pete juga murah</p>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <section class="p-6 md:p-20">
     <div class="bg-[#132758] flex flex-col py-6 md:p-20 rounded-3xl gap-10 md:gap-20 items-center" style="background-image: url(./images/bg-mi.png); background-repeat: no-repeat; background-size: cover;">
       <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">MAP INTERAKTIF</h2>
       <p class="font-bigShoulders text-[20px] md:text-[64px] md:w-[50%] text-center font-black bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] inline-block text-transparent bg-clip-text">TAKUT NYASAR? TEMUKAN PETANYA DISINI!</p>
-      <a href="#" class="py-4 px-8 text-[#132758] bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-3 md:px-6"><span class="me-2 font-bold">Map Interaktif</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="./mapInteraktif.php" class="py-4 px-8 text-[#132758] bg-gradient-to-br from-[#ffffff] to-[#7CDBF0] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-3 md:px-6"><span class="me-2 font-bold">Map Interaktif</span><i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
 
