@@ -26,6 +26,10 @@ include "navbar.php";
         nav #nav-menu {
             color: black !important;
         }
+        #navbar-default a.active {
+            color: #132758;
+            background-color: #00A693 !important;
+        }
     </style>
 </head>
 
