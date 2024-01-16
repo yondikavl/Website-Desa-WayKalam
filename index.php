@@ -77,8 +77,8 @@ include "navbar.php"
   <!-- TENTANG -->
   <section class="px-6 md:px-16 py-10 md:py-40 flex gap-6 md:gap-40 justify-center flex-col md:flex-row">
     <h2 class="font-black text-[32px] grid-cols-1 font-bigShoulders bg-gradient-to-r from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Way Kalam</h2>
-    <div class="md:w-[65%]">
-      <p class="text-base md:text-[20px] mb-8">Desa Way Kalam merupakan sebuah desa wisata yang terletak di lereng gunung Rajabasa kabupaten Lampung Selatan. Hampir semua wisata yang ada di desa Way Kalam berhubungan dengan alam. Di Desa Wisata Way Kalam kamu diajak untuk merasakan experience yang memacu adrenalin dan menambah pengetahuan. Air terjun dan taman edukatif "Lebah Kelanceng" merupakan sarana yang tepat. Tak jarang wisatawan asing memilih Desa Way Kalam sebagai destinasi wisata mereka.....</p>
+    <div class="md:w-[65%] text-justify">
+      <p class="text-base md:text-[14px] mb-8">Desa Way Kalam merupakan sebuah desa wisata yang terletak di lereng gunung Rajabasa kabupaten Lampung Selatan. Hampir semua wisata yang ada di desa Way Kalam berhubungan dengan alam. Di Desa Wisata Way Kalam kamu diajak untuk merasakan experience yang memacu adrenalin dan menambah pengetahuan. Air terjun dan taman edukatif "Lebah Kelanceng" merupakan sarana yang tepat. Tak jarang wisatawan asing memilih Desa Way Kalam sebagai destinasi wisata mereka.....</p>
       <a href="#" class="py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
@@ -109,7 +109,7 @@ include "navbar.php"
         <p class="text-[#132758] md:text-[20px] mb-8">
           Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
         </p>
-        <a href="#" class="hidden md:flex py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="hidden w-auto md:flex py-4 px-8 text-white bg-[#00A693] rounded-lg hover:bg-gray-100 md:border-0 md:hover:text-blue-700 md:p-y-3 md:px-6 items-center"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
@@ -153,7 +153,7 @@ include "navbar.php"
           <h5 class="block mb-4 text-base md:text-xl antialiased font-normal leading-snug tracking-normal text-white">
             Desa Wisata Way Kalam adalah salah satu dari sekian banyak desa wisata yang berkembang di wilayah Kabupaten Lampung Selatan.  Berlokasi di kawasan lereng gunung Rajabasa.
           </h5>
-          <a href="#" class="block py-4 px-8 text-center text-white border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="block py-4 px-8 text-center text-white border-[#EBFAFD] rounded-lg hover:bg-gray-100 md:hover:bg-[#132758] md:border-2 border-spacing-2 md:p-y-3 md:px-6 items-center"><span class="me-2">Lihat Selengkapnya</span><i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -216,6 +216,31 @@ include "navbar.php"
     <h2 class="font-bigShoulders text-[14px] md:text-[32px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">TESTIMONIAL</h2>
     <p class="font-bigShoulders text-[20px] md:text-[64px] font-black text-[#132758]">AYO, BACA PENGALAMAN DAN CERITA SERU MEREKA!</p>
     <div class="w-full flex flex-col md:flex-row gap-6 md:gap-20 py-6">
+      <div class="bg-white p-6 md:w-[50%] rounded-lg">
+        <div class="flex pb-6">
+          <div class="avatar">
+            <div class="w-24 h-24 rounded">
+              <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" class="w-full h-full object-cover" />
+            </div>
+          </div>
+          <div class="ml-6 flex flex-col items-start justify-between">
+            <div class="flex flex-col items-start">
+              <p>Wiwin Andayani</p>
+              <p>Mahasiswa</p>
+            </div>
+            <div class="space-x-2">
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+              <i class="fa-solid fa-star" style="color: #D3E564;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="text-justify">
+          <p>Akses jalannya udah bagus, fasilitas juga lumayan, tempat parkir luas dan aman...yg bawa motor bisa parkir on the spot dan yg bawa mobil bisa parkir didepan bayar 15K masuk air terjun per orang bayar 7K, ada ojek juga bayarnya sukarela...harus siap stamina kalo mau ke air terjun ini tapi bagus banget...beli duren dan pete juga murah</p>
+        </div>
+      </div>
       <div class="bg-white p-6 md:w-[50%] rounded-lg">
         <div class="flex pb-6">
           <div class="avatar">
