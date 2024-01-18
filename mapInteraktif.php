@@ -60,13 +60,13 @@ include "navbar.php";
                         <p>Wisata</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
-                        <img src="./images/icon-umkm.svg" alt="">
+                        <img src="./images/icon-homestay.svg" alt="">
                         <p>UMKM</p>
                     </div>
                 </div>
                 <div class="p-6 flex justify-between">
                     <div class="max-w-12 flex items-center flex-col justify-end">
-                        <img src="./images/icon-homestay.svg" alt="">
+                        <img src="./images/icon-umkm.svg" alt="">
                         <p>Homestay</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
@@ -154,7 +154,7 @@ include "navbar.php";
             </div>
         </div>
         <div class="w-full">
-            <img src="./images/map.png" alt="" class="w-full">
+            <img src="./images/map.svg" alt="" class="w-full">
         </div>
     </section>
 
