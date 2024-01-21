@@ -37,7 +37,7 @@ include "navbar.php";
 
 <body class="bg-[#ACC4FF] overflow-x-hidden">
     <section class="flex pt-28 md:pt-14 flex-col-reverse md:flex-row">
-        <div class="md:max-w-96 bg-[#9ae9fa] p-6">
+        <div class="md:max-w-96 bg-[#D6F2FF] p-6">
             <form class="pt-6 md:pt-16">
                 <div class="flex">
                     <div class="relative w-full">
@@ -62,13 +62,13 @@ include "navbar.php";
                         <p class="font-plusJakarta">Wisata</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
-                        <img src="./images/icon-homestay.svg" alt="">
+                        <img src="./images/icon-umkm.svg" alt="">
                         <p class="font-plusJakarta">UMKM</p>
                     </div>
                 </div>
                 <div class="p-6 flex justify-between">
                     <div class="max-w-12 flex items-center flex-col justify-end">
-                        <img src="./images/icon-umkm.svg" alt="">
+                        <img src="./images/icon-homestay.svg" alt="">
                         <p class="font-plusJakarta">Homestay</p>
                     </div>
                     <div class="max-w-12 flex items-center flex-col justify-end">
@@ -85,7 +85,7 @@ include "navbar.php";
             <div>
                 <h2 class="font-plusJakarta text-[16px] md:text-[16px] font-black bg-gradient-to-br from-[#00A693] via-[#00A693] to-[#132758] inline-block text-transparent bg-clip-text">Wisata</h2>
                 <div class="space-x-4 mt-3 flex overflow-auto">
-                    <div class="bg-white rounded-lg px-8 py-4">
+                    <a href="./detailMapInteraktif.php" class="bg-white rounded-lg px-8 py-4">
                         <div class="flex flex-col justify-around items-center">
                             <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
                                 <img src="./images/wisata/indukan.svg" alt="indukan" class="h-full w-full object-cover" />
@@ -94,8 +94,8 @@ include "navbar.php";
                                 <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Air Terjun Indukan</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="bg-white rounded-lg px-6 py-3">
+                    </a>
+                    <a href="./detailMapInteraktif.php" class="bg-white rounded-lg px-6 py-3">
                         <div class="flex flex-col justify-around items-center">
                             <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
                                 <img src="./images/wisata/anakan.svg" alt="anakan" class="h-full w-full object-cover" />
@@ -104,8 +104,8 @@ include "navbar.php";
                                 <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Air Terjun Anakan</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="bg-white rounded-lg px-6 py-3">
+                    </a>
+                    <a href="./detailMapInteraktif.php" class="bg-white rounded-lg px-6 py-3">
                         <div class="flex flex-col justify-around items-center">
                             <div class="overflow-hidden rounded-md h-[12rem] w-[8rem]">
                                 <img src="./images/wisata/camping.svg" alt="camping" class="h-full w-full object-cover" />
@@ -114,7 +114,7 @@ include "navbar.php";
                                 <p class="uppercase font-bigShoulders font-bold text-black md:text-[14px]">Camping Ground</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
